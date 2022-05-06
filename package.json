@@ -5,6 +5,8 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "antd": "^4.20.2",
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "react-scripts": "4.0.0"

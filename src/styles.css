@@ -1,4 +1,17 @@
 .App {
-  font-family: sans-serif;
-  text-align: center;
+  height: 100vh;
+}
+
+.sidebar {
+  flex: 1;
+  position: relative;
+}
+.profile {
+  flex: 2;
+}
+.user {
+  flex: 1;
+}
+* {
+  font-family: "Poppins", sans-serif;
 }

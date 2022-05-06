@@ -1,0 +1,9 @@
+.language{
+    justify-content: space-between;
+    padding: 0.5rem 4.5rem;
+    align-items: center;
+}
+
+.small_text{
+    color: #A2A2C2;
+}
