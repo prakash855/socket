@@ -15,7 +15,7 @@ const SideBar = () => {
       </div>
       </div>
       <div className="action-upgrade">
-        <button class="btn primary_btn">Upgrade</button>
+        <button className="btn primary_btn">Upgrade</button>
       </div>
     </aside>
   );

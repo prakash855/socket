@@ -33,12 +33,12 @@
   color: white;
 }
 
-.user_about{
-    color: #A2A2C2;
+.user_about {
+  color: #a2a2c2;
 }
 
-.user{
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 2rem 0;
+.user {
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem 0 3rem 0;
 }

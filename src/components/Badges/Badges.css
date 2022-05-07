@@ -1,0 +1,21 @@
+.badge_down {
+  justify-content: space-between;
+  width: 15rem;
+  padding: 1rem;
+  border-radius: 20px;
+  align-items: center;
+  color: var(--white);
+}
+
+.code_badge {
+  width: 2.5rem;
+  height: 2.5rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+}
+
+.action_badge{
+  position: relative;
+  top: 0.7rem;
+}

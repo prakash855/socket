@@ -15,26 +15,26 @@ const User = () => {
     <div className="user flex">
       <div>
         <div className="logout_header flex">
-          <h3 class="text_headings headThree">logout</h3>
+          <h3 className="text_headings headThree">logout</h3>
           <img className="logout_logo" src={Logout} alt="" />
         </div>
-        <div class="icons center_aligned">
-          <img class="icon_lg round avatar_xl" src={UserPicture} alt="badge" />
-          <span class="badge_status status_online">
+        <div className="icons center_aligned">
+          <img className="icon_lg round avatar_xl" src={UserPicture} alt="badge" />
+          <span className="badge_status status_online">
             <div className="icon_add">+</div>
           </span>
         </div>
-        <h3 class="bold_text center_aligned">Sadia Tasnim</h3>
-        <div class="user_about center_aligned">Student</div>
+        <h3 className="bold_text center_aligned">Sadia Tasnim</h3>
+        <div className="user_about center_aligned">Student</div>
       </div>
       <div className="layout_test">
         <Language
           code="B2"
           lang="English"
           level="High Intermediate"
-          range={EngLevel}
+          range={50}
         />
-        <Language code="C1" lang="Spanish" level="Advanced" range={SpanLevel} />
+        <Language code="C1" lang="Spanish" level="Advanced" range={80} />
       </div>
       <div className="layout_test">
         <Task

@@ -1,0 +1,6 @@
+.profileHeader{
+    justify-content: space-between;
+    align-items: center;
+    background: var(--white);
+    padding: 1rem;
+}

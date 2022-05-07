@@ -7,3 +7,11 @@
 .small_text{
     color: #A2A2C2;
 }
+
+.lang_section{
+    align-items: center;
+}
+
+.langs{
+    margin-left: 1rem;
+}
