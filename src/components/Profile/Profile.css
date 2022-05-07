@@ -1,0 +1,45 @@
+.profile {
+  background: #f5f5fb;
+  margin: 0 2rem;
+}
+
+.heads {
+  justify-content: flex-end;
+  margin: 2rem 0;
+}
+
+.headingMain {
+  color: #ff808b;
+  font-size: 1.2rem;
+}
+
+.headPic {
+  background: #f7e5e9;
+  height: 18%;
+  border-radius: 17px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 4rem 0 0;
+}
+
+.headImg {
+  position: relative;
+  height: 10rem;
+  bottom: 1.1rem;
+}
+
+.latestReults,
+.timeSpent {
+  flex: 1;
+  margin: 1rem;
+  border-radius: 10px;
+  background: var(--white);
+}
+
+.results{
+  padding: 1rem 0;
+}
+
+.badges{
+  justify-content: space-between;
+}

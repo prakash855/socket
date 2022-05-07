@@ -3,14 +3,13 @@
 }
 
 .sidebar {
-  flex: 1;
   position: relative;
 }
 .profile {
-  flex: 2;
+  flex: 3.5;
 }
 .user {
-  flex: 1;
+  flex: 1.5;
 }
 * {
   font-family: "Poppins", sans-serif;

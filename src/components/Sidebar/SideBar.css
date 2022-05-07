@@ -1,4 +1,4 @@
-.sidebar{
+.sidebar {
   height: 100vh;
   justify-content: space-between;
   flex-direction: column;
@@ -20,12 +20,20 @@
   left: 0.4rem;
 }
 
-.btn{
+.btn {
   margin-left: 24px;
   border-radius: 5px;
 }
 
-.ant-tabs-tab-btn{
+.ant-tabs-tab-btn {
   display: flex;
   align-items: center;
+}
+
+.menuTabs {
+  margin: 2rem 0;
+}
+
+.ant-tabs-tab-btn {
+  color: #a8abce;
 }
