@@ -1,4 +1,3 @@
-import { ArrowRightOutlined } from "@ant-design/icons";
 import React from "react";
 import "./ProfileHeader.css";
 

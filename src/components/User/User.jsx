@@ -2,13 +2,14 @@ import React from "react";
 import Language from "../Language/Language";
 import Task from "../Task/Task";
 
+// Vendors
 import Logout from "../../assets/Logout.png";
 import UserPicture from "../../assets/User.png";
-import EngLevel from "../../assets/EngLevel.png";
-import SpanLevel from "../../assets/SpanLevel.png";
 import test from "../../assets/test.png";
 import Send from "../../assets/Send.png";
+
 import "./User.css";
+import { languages, tasks } from "../../Data";
 
 const User = () => {
   return (
@@ -19,7 +20,11 @@ const User = () => {
           <img className="logout_logo" src={Logout} alt="" />
         </div>
         <div className="icons center_aligned">
-          <img className="icon_lg round avatar_xl" src={UserPicture} alt="badge" />
+          <img
+            className="icon_lg round avatar_xl"
+            src={UserPicture}
+            alt="badge"
+          />
           <span className="badge_status status_online">
             <div className="icon_add">+</div>
           </span>
@@ -28,30 +33,14 @@ const User = () => {
         <div className="user_about center_aligned">Student</div>
       </div>
       <div className="layout_test">
-        <Language
-          code="B2"
-          lang="English"
-          level="High Intermediate"
-          range={50}
-        />
-        <Language code="C1" lang="Spanish" level="Advanced" range={80} />
+        {languages.map((props, id) => (
+          <Language key={id} {...props} />
+        ))}
       </div>
       <div className="layout_test">
-        <Task
-          icon={test}
-          name="Eng - vocabulary test"
-          time="24 Sept 2019 Friday"
-        />
-        <Task
-          icon={Send}
-          name="Eng - Send grammar homework"
-          time="26 Sept 2019 Wednesday"
-        />
-        <Task
-          icon={Send}
-          name="Spanish - Send essay"
-          time="05 oct 2019 Monday"
-        />
+        {tasks.map((props, id) => (
+          <Task key={id} {...props} />
+        ))}
       </div>
     </div>
   );

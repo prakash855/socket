@@ -1,3 +1,6 @@
+import test from "./assets/test.png";
+import Send from "./assets/Send.png";
+
 export const BadgeInfo = [
   {
     code: "B2",
@@ -47,5 +50,38 @@ export const latestReults = [
     unit: "16",
     name: "Job market",
     range: "75",
+  },
+];
+
+export const tasks = [
+  {
+    icon: test,
+    name: "Eng - vocabulary test",
+    time: "24 Sept 2019 Friday",
+  },
+  {
+    icon: Send,
+    name: "Eng - Send grammar homework",
+    time: "26 Sept 2019 Wednesday",
+  },
+  {
+    icon: Send,
+    name: "Spanish - Send essay",
+    time: "05 oct 2019 Monday",
+  },
+];
+
+export const languages = [
+  {
+    code: "B2",
+    lang: "English",
+    level: "High Intermediate",
+    range: 50,
+  },
+  {
+    code: "C1",
+    lang: "Spanish",
+    level: "Advanced",
+    range: 80,
   },
 ];

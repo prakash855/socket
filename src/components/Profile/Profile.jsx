@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import BorderBottom from "../BorderBottom";
 import DataBar from "../DataBar/DataBar";
 import Latestresults from "../LatestReults/Latestresults";
@@ -7,6 +7,7 @@ import { ArrowRightOutlined, DownOutlined } from "@ant-design/icons";
 import ProfileHeader from "../ProfileHeader/ProfileHeader";
 import "./Profile.css";
 
+// Vendors
 import Search from "../../assets/Search.png";
 import profile from "../../assets/profile.png";
 import { BadgeInfo, latestReults } from "../../Data";

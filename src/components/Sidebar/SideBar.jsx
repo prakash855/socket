@@ -1,7 +1,8 @@
 import "./SideBar.css";
-import Logo from "../../assets/Logo.png";
 import OptionTabs from "./Tabs";
 
+// Vendors
+import Logo from "../../assets/Logo.png";
 const SideBar = () => {
   return (
     <aside className="sidebar flex">
