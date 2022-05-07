@@ -8,9 +8,6 @@
 .profile {
   flex: 3.5;
 }
-.user {
-  flex: 1.5;
-}
 * {
   font-family: "Poppins", sans-serif;
 }

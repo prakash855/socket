@@ -13,10 +13,16 @@ import { BadgeInfo, latestReults } from "../../Data";
 
 const Profile = () => {
   return (
-    <div className="profile">
+    <div className="profile flex">
       <div className="heads flex right_aligned">
         <h5 className="text_headings headFive">22 Feb 2022</h5>
-        <img src={Search} alt="Search" />
+        <div className="searchBar flex">
+          <img
+            style={{ width: "1rem", height: "1rem" }}
+            src={Search}
+            alt="Search"
+          />
+        </div>
       </div>
       <div className="headPic flex">
         <div className="abt">
