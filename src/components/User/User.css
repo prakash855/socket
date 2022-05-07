@@ -1,6 +1,6 @@
 .logout_header {
-  justify-content: space-around;
-  padding: 2rem 0;
+  justify-content: space-between;
+  padding: 2rem 3rem;
   align-items: center;
 }
 

@@ -38,3 +38,8 @@
 .ant-tabs-tab-btn {
   color: #a8abce;
 }
+
+.btn{
+  border-radius: 10px;
+  background: #5E81F4;
+}

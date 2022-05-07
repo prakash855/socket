@@ -9,7 +9,7 @@ const Badge = ({ code, name, course, background, codeBackground }) => {
         {code}
       </div>
       <div className="content_badge">
-        <small>{name}</small>
+        <div style={{color:"white"}} class="small_text">{name}</div>
         <div class="bold_text">{course}</div>
       </div>
       <div className="action_badge">
