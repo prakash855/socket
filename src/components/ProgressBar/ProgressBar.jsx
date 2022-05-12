@@ -8,9 +8,9 @@ const ProgressBar = ({ range }) => (
   <div className="flex ranges">
     <input className="range-input" type="range" value={range} />
     {range < 34 ? (
-      <p className="failure_percentage">{range}%</p>
+      <small className="failure_percentage percentage">{range}%</small>
     ) : (
-      <p>{range}%</p>
+      <small className="percentage">{range}%</small>
     )}
   </div>
 );
