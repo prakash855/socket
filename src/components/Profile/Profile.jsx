@@ -50,7 +50,7 @@ const Profile = () => {
           {latestReults.map((props, id) => (
             <>
               <Latestresults key={id} {...props} />
-              <BorderBottom />
+              <BorderBottom id={id} />
             </>
           ))}
         </div>

@@ -1,3 +1,18 @@
 .progressBar {
   width: 100px;
 }
+
+.ranges {
+  align-items: center;
+}
+
+.range-input {
+  position: relative;
+  width: 7rem;
+  bottom: 7px;
+  right: 5px;
+}
+
+.failure_percentage {
+  color: red;
+}
