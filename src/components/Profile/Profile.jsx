@@ -16,7 +16,7 @@ const Profile = () => {
   return (
     <div className="profile flex">
       <div className="heads flex right_aligned">
-        <h5 className="bold_text">22 Feb 2022 {Date.now()}</h5>
+        <h5 className="bold_text">22 Feb 2022</h5>
         <div className="searchBar flex">
           <img
             style={{ width: "1rem", height: "1rem" }}
